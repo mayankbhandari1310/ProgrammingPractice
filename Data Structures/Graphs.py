@@ -597,9 +597,3 @@ graph.add_edge(6, 7, 11)
 
 MST = primsMST(graph)
 MST.print_graph()
-
-
-'''
-In krushkal we do the same with edges, just check for the loop
-Loop is checked by union find
-'''
